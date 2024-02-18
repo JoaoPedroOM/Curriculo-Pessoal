@@ -26,8 +26,8 @@ export const PROJECTDATA = {
               link: "https://styled-components.com/"
             }
           ],
-          github: "https://github.com/JoaoPedroOM/PortfolioPessoal",
-          view: "https://portfolio-joao-pedro.vercel.app/"
+          github: "https://github.com/JoaoPedroOM/Curriculo-Pessoal",
+          view: "https://curriculo-joao-pedro.vercel.app/"
         },
 
         notes: {
