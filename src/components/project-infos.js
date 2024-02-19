@@ -27,7 +27,7 @@ export const PROJECTDATA = {
             }
           ],
           github: "https://github.com/JoaoPedroOM/Curriculo-Pessoal",
-          view: "https://curriculo-joao-pedro.vercel.app/"
+          view: "https://portfolio-joao-pedro.vercel.app/"
         },
 
         notes: {
