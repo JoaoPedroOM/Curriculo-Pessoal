@@ -1,16 +1,22 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# PortfolioPessoal
 
-# React + Vite
+# Portfolio Pessoal
+![GitHub repo size](https://img.shields.io/github/repo-size/JoaoPedroOM/Curriculo-Pessoal)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório contém o código-fonte do meu portfólio desenvolvido em ReactJS. O objetivo deste projeto é criar uma plataforma online onde posso exibir meu trabalho, habilidades e experiência de uma forma interativa e envolvente.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-<<<<<<< HEAD
->>>>>>> 1ded25a (first commit)
-=======
->>>>>>> 1ded25a2f82df3ed79646a09092524d0ab519459
+## Aprendizados 📚
+
+Construir meu próprio portfólio em ReactJS foi uma jornada incrível que me proporcionou uma compreensão sólida da biblioteca, incluindo componentização, styled-components e React Router DOM. Além disso, ao lidar com diferentes seções e componentes em um portfólio, é importante ter um bom gerenciamento de estado para garantir que os dados sejam passados e exibidos corretamente.
+
+
+
+## Melhorias 🚀
+
+Procurei refatorar o código sempre que necessário para torná-lo mais legível, modular e eficiente. Isso incluiu a extração de componentes repetitivos, simplificação de lógica complexa e adoção de padrões de codificação consistentes.
+
+
+## Feedback
+
+Se você tiver algum feedback, por favor me deixe saber por meio de joaopedroolive@hotmail.com
+
