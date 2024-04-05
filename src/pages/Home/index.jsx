@@ -5,6 +5,7 @@ import Footer from "../../components/Footer"
 import { Download } from 'lucide-react';
 import downloadPDF from "../../../download/João Pedro Oliveira Curriculo.pdf"
 
+
 import git from "../../assets/git.svg";
 import html from "../../assets/html.svg";
 import css from "../../assets/css.svg";
@@ -77,7 +78,6 @@ export function Home() {
           </a>
         </div>
       </Contato>
-
     <Footer/>
     </Container>
   );
