@@ -3,18 +3,21 @@ import { Header } from "../../components/Header";
 import Footer from "../../components/Footer";
 import Program from "../../components/Program";
 
-import portfolio from "../../assets/portfolio.png"
+import portfolio from "../../assets/portfolio.png";
+import dogs from "../../assets/dogs.png";
 import notes from "../../assets/notes.png";
 import carrybike from "../../assets/carrybike.png";
 import contagem from "../../assets/contagem.png";
 import climatempo from "../../assets/climatempo.png";
-import todolist from "../../assets/todolist.png"
+import todolist from "../../assets/todolist.png";
+import empireburger from "../../assets/empireburger.png";
 
 import html from "../../assets/html.svg";
 import css from "../../assets/css.svg";
 import js from "../../assets/js.svg";
 import node from "../../assets/node.svg";
 import react from "../../assets/reactJS.svg";
+import tailwind from "../../assets/tailwind.svg";
 
 export function Projetos() {
   return (
@@ -28,8 +31,16 @@ export function Projetos() {
         </p>
 
         <Projects>
+          <Program
+            projectURL="empireburger"
+            imgURL={empireburger}
+            alt="Home do site Empire Burger, destacando um banner promocional com o King Burger, menu de navegação e seções de ofertas especiais, atendimento e entrega."
+            title="Empire-Burger"
+            description="Empire Burger, uma hamburgueria fictícia, com foco na fidelidade ao layout e funcionalidades avançadas. Utilizando React e Tailwind CSS, implementei uma interface intuitiva."
+            arrayStack={[react, tailwind]}
+          />
 
-        <Program
+          <Program
             projectURL="portfolio"
             imgURL={portfolio}
             alt="Home do site portfolio João Pedro. Essa página conta com um título centralizado que contem a mensagem 'Olá, meu nome é João Pedro. Eu sou um desenvolvedor de 20 anos do Brasil localizado em Peruíbe.' e logo abaixo dois botões um para download do currículo e outro para os projetos "
@@ -39,12 +50,12 @@ export function Projetos() {
           />
 
           <Program
-            projectURL="notes"
-            imgURL={notes}
-            alt="Imagem da área principal do site notes, nela temos uma navbar a esquerda com três opções: Todos, Node e React. A direita da página temos uma barra de pesquisa para buscar nota e logo embaixo um título escrito 'minhas notas' com todas notas do usuário "
-            title="Notes"
-            description="Projeto elaborado durante a trilha Explorer do curso da Rocketseat. Esse projeto foi desenvolvido utilizando React e Node.js. Ótima oportunidade para o desenvolvimento de fundamentos do React, como React Router DOM e Styled Components, além do aprendizado sobre Node.js e Express."
-            arrayStack={[react, node]}
+            projectURL="dogs"
+            imgURL={dogs}
+            alt="Home do site portfolio João Pedro. Essa página conta com um título centralizado que contem a mensagem 'Olá, meu nome é João Pedro. Eu sou um desenvolvedor de 20 anos do Brasil localizado em Peruíbe.' e logo abaixo dois botões um para download do currículo e outro para os projetos "
+            title="Dogs"
+            description="Desenvolvido como parte do curso de React da Origamid, oferece aos usuários a oportunidade de compartilhar fotos de seus queridos pets, interagir com outros donos de cachorros e explorar uma comunidade amigável e dedicada aos animais de estimação."
+            arrayStack={[react, tailwind]}
           />
 
           <Program
@@ -57,6 +68,15 @@ export function Projetos() {
             de design e desenvolvimento web, além de criar uma interface atraente e eficaz para um 
             negócio real."
             arrayStack={[html, css]}
+          />
+
+          <Program
+            projectURL="notes"
+            imgURL={notes}
+            alt="Imagem da área principal do site notes, nela temos uma navbar a esquerda com três opções: Todos, Node e React. A direita da página temos uma barra de pesquisa para buscar nota e logo embaixo um título escrito 'minhas notas' com todas notas do usuário "
+            title="Notes"
+            description="Projeto elaborado durante a trilha Explorer do curso da Rocketseat. Esse projeto foi desenvolvido utilizando React e Node.js. Ótima oportunidade para o desenvolvimento de fundamentos do React, como React Router DOM e Styled Components, além do aprendizado sobre Node.js e Express."
+            arrayStack={[react, node]}
           />
 
           <Program

@@ -20,6 +20,7 @@ export const Main = styled.main`
     width: 96rem;
     height: 61rem;
     border-radius: 0.5rem;
+    object-fit: cover;
   }
 
   @media (max-width: 1023px) {
