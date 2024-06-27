@@ -12,7 +12,7 @@ const Footer = () => {
           </li>
           <li>
             <a
-              href="https://www.linkedin.com/in/jo%C3%A3o-pedro-909822252"
+              href="https://www.linkedin.com/in/joaopedroom"
               target="_blank"
             >
               Linkedin
