@@ -12,6 +12,7 @@ import css from "../../assets/css.svg";
 import js from "../../assets/js.svg";
 import node from "../../assets/node.svg";
 import reactJS from "../../assets/reactJS.svg";
+import tailwind from "../../assets/tailwind.svg"
 
 import Tecnologia from "../../components/Tecnologia";
 
@@ -47,7 +48,7 @@ export function Home() {
               <a className="detail" href="https://unisanta.br/" target="_blank">
                 Universidade Santa Cecília
               </a>{" "}
-              desde 2022 (5o. semestre). Foco em desenvolvimento web front-end,
+              desde 2022 (6o. semestre). Foco em desenvolvimento web front-end,
               especificamente no desenvolvimento de aplicações escaláveis e
               performáticas, fornecendo uma boa experiência ao usuário, além de
               realizar otimizações/melhorias em aplicativos web já
@@ -61,11 +62,12 @@ export function Home() {
         <h3>Tecnologias</h3>
         <div>
           <Tecnologia imgURL={html} altIMG="Logo do HTML5" />
-          <Tecnologia imgURL={css} altIMG="Logo do HTML5" />
-          <Tecnologia imgURL={js} altIMG="Logo do HTML5" />
-          <Tecnologia imgURL={git} altIMG="Logo do HTML5" />
-          <Tecnologia imgURL={reactJS} altIMG="Logo do HTML5" />
-          <Tecnologia imgURL={node} altIMG="Logo do HTML5" />
+          <Tecnologia imgURL={css} altIMG="Logo do CSS" />
+          <Tecnologia imgURL={reactJS} altIMG="Logo do React" />
+          <Tecnologia imgURL={tailwind} altIMG="Logo do Tailwind" />
+          <Tecnologia imgURL={js} altIMG="Logo do JavaScript" />
+          <Tecnologia imgURL={git} altIMG="Logo do Git" />
+          <Tecnologia imgURL={node} altIMG="Logo do Node" />
         </div>
       </Tecnologias>
 

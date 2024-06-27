@@ -195,8 +195,8 @@ export const Tecnologias = styled.section`
     display: grid;
     justify-content: center;
     align-items: center;
-    gap: 13rem;
-    grid-template-columns: repeat(6, 1fr);
+    gap: 8rem;
+    grid-template-columns: repeat(7, 1fr);
   }
 
   @media (max-width: 870px) {
