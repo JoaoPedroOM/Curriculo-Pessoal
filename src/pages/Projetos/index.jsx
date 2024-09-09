@@ -11,6 +11,7 @@ import contagem from "../../assets/contagem.png";
 import climatempo from "../../assets/climatempo.png";
 import todolist from "../../assets/todolist.png";
 import empireburger from "../../assets/empireburger.png";
+import guerreiros from "../../assets/GuerreirosdaAmazônia.png";
 
 import html from "../../assets/html.svg";
 import css from "../../assets/css.svg";
@@ -31,6 +32,14 @@ export function Projetos() {
         </p>
 
         <Projects>
+        <Program
+            projectURL="guerreiros"
+            imgURL={guerreiros}
+            alt="Fundo amarelo com Logo dos Guerreiros da Amazônia no meio"
+            title="Guerreiros da Amazônia"
+            description="Atuei como desenvolvedor front-end no projeto Guerreiros da Amazônia, sendo responsável pela implementação do layout das telas de login e registro, além das funcionalidades essenciais de autenticação de usuários, como login, criação de conta e recuperação de senha."
+            arrayStack={[react, tailwind]}
+          />
           <Program
             projectURL="empireburger"
             imgURL={empireburger}

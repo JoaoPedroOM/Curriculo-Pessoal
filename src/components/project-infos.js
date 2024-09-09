@@ -6,8 +6,41 @@ import climatempo from "../assets/climatempo.png";
 import todolist from "../assets/todolist.png";
 import dogs from "../assets/dogs.png";
 import empireburger from "../assets/empireburger.png"
+import guerreiros from "../assets/GuerreirosdaAmazônia.png"
 
 export const PROJECTDATA = {
+  guerreiros: {
+    nome: "Guerreiros da Amazônia - Triplano Games",
+    descricao: [
+      "Atuei como desenvolvedor front-end, responsável pela implementação do layout das telas de login e registro, além das funcionalidades essenciais de autenticação de usuários, como criação de conta e recuperação de senha.",
+      "O design foi baseado no layout fornecido pela equipe de UI/UX no Figma, garantindo uma experiência visual coesa. Utilizei ReactJS para desenvolver as funcionalidades e Tailwind CSS para estilizar as interfaces, garantindo responsividade e eficiência. A integração com APIs permitiu a autenticação de usuários de forma ágil e segura.",
+    ],
+    features: [
+      "Telas de Login e Registro: Interface de autenticação com design intuitivo e responsivo.",
+      "Funcionalidades de Autenticação: Implementação das funcionalidades de login, criação de conta e recuperação de senha.",
+      "Integração com API: Conexão eficiente com APIs para autenticação de usuários.",
+      "Design Responsivo: Adaptado para diferentes tamanhos de tela, garantindo boa usabilidade em dispositivos móveis."
+    ],
+    imagem: guerreiros,
+    altIMG: "Fundo amarelo com Logo dos Guerreiros da Amazônia no meio",
+    tecnoligas: [
+      {
+        tec: "React",
+        link: "https://react.dev/",
+      },
+      {
+        tec: "Vite",
+        link: "https://vitejs.dev/",
+      },
+      {
+        tec: "Tailwind CSS",
+        link: "https://tailwindcss.com/",
+      },
+    ],
+    github: "https://github.com/JoaoPedroOM",
+    view: "https://github.com/JoaoPedroOM",
+  },
+  
   empireburger: {
     nome: "Empire-Burguer 🍔",
     descricao:
@@ -63,6 +96,7 @@ export const PROJECTDATA = {
       [
         "O Dogs é uma rede social dedicada aos cachorros, desenvolvida como parte do curso de React da Origamid. Oferece aos usuários a oportunidade de compartilhar fotos de seus pets, interagir com outros donos de cachorros e explorar uma comunidade amigável e dedicada aos animais de estimação. Utilizando tecnologias como React, React Router, React Hook Form, Tailwind CSS e Victory, o projeto integra uma API externa para gerenciamento de usuários, fotos e interações na plataforma.",
         "Durante o desenvolvimento deste projeto, foram adquiridos diversos aprendizados sobre o desenvolvimento de aplicações web com React. Entre os desafios enfrentados estão o gerenciamento de estado da aplicação, a estilização eficiente com Tailwind CSS e a integração com uma API",
+       
       ],
     imagem: dogs,
     altIMG: "Home da rede social dogs",
