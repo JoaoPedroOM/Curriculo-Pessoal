@@ -7,6 +7,7 @@ import todolist from "../assets/todolist.png";
 import dogs from "../assets/dogs.png";
 import empireburger from "../assets/empireburger.png"
 import guerreiros from "../assets/GuerreirosdaAmazônia.png"
+import taskmanager from "../assets/taskmanager.png"
 
 export const PROJECTDATA = {
   guerreiros: {
@@ -39,6 +40,40 @@ export const PROJECTDATA = {
     ],
     github: "https://github.com/JoaoPedroOM",
     view: "https://github.com/JoaoPedroOM",
+  },
+
+  taskmanager: {
+    nome: "Task Manager",
+    descricao:
+    "Neste projeto de gerenciamento de tasks, tive a oportunidade de aprofundar meus conhecimentos no Redux Toolkit e explorar uma nova biblioteca, o React DnD (Drag and Drop). Essa implementação permitiu criar tarefas que podem ser arrastadas entre colunas, facilitando a mudança de prioridade e a organização das atividades. O uso do React DnD não só enriqueceu a experiência do usuário, mas também desafiou minhas habilidades em gerenciamento de estado, proporcionando um aprendizado valioso sobre a integração de funcionalidades interativas em um aplicativo React.",
+  features: [
+    "Possibilidade de arrastar tasks para mudar sua ordem.",
+    "Capacidade de arrastar tasks entre colunas para alterar seu status ou prioridade.",
+    "Edição de tasks com um clique, permitindo atualizar rapidamente as informações.",
+    "Exclusão de tasks com um duplo clique, proporcionando uma maneira simples de remover tasks.",
+  ],
+    imagem: taskmanager,
+    altIMG: "Página para gerenciar as tasks",
+    tecnoligas: [
+      {
+        tec: "React",
+        link: "https://react.dev/",
+      },
+      {
+        tec: "Vite",
+        link: "https://vitejs.dev/",
+      },
+      {
+        tec: "Redux Toolkit",
+        link: "https://redux-toolkit.js.org/",
+      },
+      {
+        tec: "Tailwind CSS",
+        link: "https://tailwindcss.com/",
+      },
+    ],
+    github: "https://github.com/JoaoPedroOM/TaskManager",
+    view: "https://task-manager-omega-puce.vercel.app/",
   },
   
   empireburger: {

@@ -12,6 +12,7 @@ import climatempo from "../../assets/climatempo.png";
 import todolist from "../../assets/todolist.png";
 import empireburger from "../../assets/empireburger.png";
 import guerreiros from "../../assets/GuerreirosdaAmazônia.png";
+import taskmanager from "../../assets/taskmanager.png"
 
 import html from "../../assets/html.svg";
 import css from "../../assets/css.svg";
@@ -19,6 +20,7 @@ import js from "../../assets/js.svg";
 import node from "../../assets/node.svg";
 import react from "../../assets/reactJS.svg";
 import tailwind from "../../assets/tailwind.svg";
+import reduxtoolkit from "../../assets/reduxtoolkit.svg"
 
 export function Projetos() {
   return (
@@ -32,7 +34,7 @@ export function Projetos() {
         </p>
 
         <Projects>
-        <Program
+          <Program
             projectURL="guerreiros"
             imgURL={guerreiros}
             alt="Fundo amarelo com Logo dos Guerreiros da Amazônia no meio"
@@ -40,6 +42,16 @@ export function Projetos() {
             description="Atuei como desenvolvedor front-end no projeto Guerreiros da Amazônia, sendo responsável pela implementação do layout das telas de login e registro, além das funcionalidades essenciais de autenticação de usuários, como login, criação de conta e recuperação de senha."
             arrayStack={[react, tailwind]}
           />
+
+          <Program
+            projectURL="taskmanager"
+            imgURL={taskmanager}
+            alt="Página com três colunas de tarefas, permitindo arrastar e soltar as tasks entre as colunas; a primeira coluna contém um botão para adicionar uma nova tarefa."
+            title="Task Manager"
+            description="Projeto de gerenciamento de tasks desenvolvido em React, com o objetivo de praticar o uso do Redux Toolkit. O aplicativo utiliza ReactJS, Tailwind CSS para estilização e Redux Toolkit para a gestão eficiente do estado das tasks."
+            arrayStack={[react, tailwind, reduxtoolkit]}
+          />
+
           <Program
             projectURL="empireburger"
             imgURL={empireburger}
