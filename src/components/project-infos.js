@@ -45,11 +45,13 @@ export const PROJECTDATA = {
   taskmanager: {
     nome: "Task Manager",
     descricao:
-    "Neste projeto de gerenciamento de tasks, tive a oportunidade de aprofundar meus conhecimentos no Redux Toolkit e explorar uma nova biblioteca, o React DnD (Drag and Drop). Essa implementação permitiu criar tarefas que podem ser arrastadas entre colunas, facilitando a mudança de prioridade e a organização das atividades. O uso do React DnD não só enriqueceu a experiência do usuário, mas também desafiou minhas habilidades em gerenciamento de estado, proporcionando um aprendizado valioso sobre a integração de funcionalidades interativas em um aplicativo React.",
+    "Neste projeto de gerenciamento de tasks, utilizei o Redux Toolkit para gerenciamento de estado e o React DnD para permitir que as tarefas fossem arrastadas entre colunas, facilitando a organização e mudança de prioridades. A autenticação de usuários foi feita através do Firebase Authentication, com login via Google e GitHub, enquanto as tarefas são armazenadas no Cloud Firestore, garantindo a persistência e sincronização dos dados em tempo real. Esse conjunto de tecnologias proporcionou uma experiência de usuário interativa e uma aplicação escalável e segura.",
   features: [
     "Possibilidade de arrastar tasks para mudar sua ordem.",
+    "Permite aos usuários entrarem com suas contas do Google ou GitHub, utilizando o Firebase Authentication.",
     "Capacidade de arrastar tasks entre colunas para alterar seu status ou prioridade.",
     "Edição de tasks com um clique, permitindo atualizar rapidamente as informações.",
+    "Tasks são armazenadas no Cloud Firestore",
     "Exclusão de tasks com um duplo clique, proporcionando uma maneira simples de remover tasks.",
   ],
     imagem: taskmanager,
@@ -73,7 +75,7 @@ export const PROJECTDATA = {
       },
     ],
     github: "https://github.com/JoaoPedroOM/TaskManager",
-    view: "https://task-manager-omega-puce.vercel.app/",
+    view: "https://task-manager-eight-amber.vercel.app/",
   },
   
   empireburger: {
