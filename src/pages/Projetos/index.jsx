@@ -12,7 +12,8 @@ import climatempo from "../../assets/climatempo.png";
 import todolist from "../../assets/todolist.png";
 import empireburger from "../../assets/empireburger.png";
 import guerreiros from "../../assets/GuerreirosdaAmazônia.png";
-import taskmanager from "../../assets/taskmanager.png"
+import taskmanager from "../../assets/taskmanager.png";
+import docom from "../../assets/docOM.png"
 
 import html from "../../assets/html.svg";
 import css from "../../assets/css.svg";
@@ -20,7 +21,7 @@ import js from "../../assets/js.svg";
 import node from "../../assets/node.svg";
 import react from "../../assets/reactJS.svg";
 import tailwind from "../../assets/tailwind.svg";
-import reduxtoolkit from "../../assets/reduxtoolkit.svg"
+import reduxtoolkit from "../../assets/reduxtoolkit.svg";
 
 export function Projetos() {
   return (
@@ -40,6 +41,15 @@ export function Projetos() {
             alt="Fundo amarelo com Logo dos Guerreiros da Amazônia no meio"
             title="Guerreiros da Amazônia"
             description="Atuei como desenvolvedor front-end no projeto Guerreiros da Amazônia, sendo responsável pela implementação do layout das telas de login e registro, além das funcionalidades essenciais de autenticação de usuários, como login, criação de conta e recuperação de senha."
+            arrayStack={[react, tailwind]}
+          />
+
+          <Program
+            projectURL="docom"
+            imgURL={docom}
+            alt="Home do DocOM com dois botões na tela e um titulo"
+            title="DocOM"
+            description="No projeto DocOM, desenvolvi uma aplicação de criação e gerenciamento de documentos utilizando ReactJS e Tailwind CSS. A autenticação foi gerenciada pelo Clerk, permitindo login seguro com contas do Google e GitHub, enquanto o backend ficou por conta do Convex."
             arrayStack={[react, tailwind]}
           />
 

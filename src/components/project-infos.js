@@ -8,6 +8,7 @@ import dogs from "../assets/dogs.png";
 import empireburger from "../assets/empireburger.png"
 import guerreiros from "../assets/GuerreirosdaAmazônia.png"
 import taskmanager from "../assets/taskmanager.png"
+import docom from "../assets/docOM.png"
 
 export const PROJECTDATA = {
   guerreiros: {
@@ -40,6 +41,44 @@ export const PROJECTDATA = {
     ],
     github: "https://github.com/JoaoPedroOM",
     view: "https://github.com/JoaoPedroOM",
+  },
+
+  docom: {
+    nome: "DocOM",
+    descricao:
+    "Neste projeto de gerenciamento de documentos, utilizei ReactJS para desenvolver a interface e Tailwind CSS para estilização. A autenticação de usuários foi realizada através do Clerk, com suporte para login via Google e GitHub, garantindo segurança e personalização no gerenciamento de acesso. Para armazenamento e sincronização de dados, usei o Convex, que possibilita a persistência e atualização em tempo real, criando uma aplicação escalável e ágil.",
+  features: [
+    "Permite aos usuários entrarem com suas contas do Google ou GitHub, utilizando o Clerk para gerenciamento seguro de autenticação.",
+    "Criação e edição de documentos com interface intuitiva.",
+    "Alteração do título dos documentos para uma melhor organização.",
+    "Os documentos são armazenados no Convex, garantindo persistência e sincronização em tempo real.",
+  ],
+    imagem: docom,
+    altIMG: "Página para gerenciar as tasks",
+    tecnoligas: [
+      {
+        tec: "React",
+        link: "https://react.dev/",
+      },
+      {
+        tec: "Vite",
+        link: "https://vitejs.dev/",
+      },
+      {
+        tec: "Tailwind CSS",
+        link: "https://tailwindcss.com/",
+      },
+      {
+        tec: "Clerk",
+        link: "https://clerk.com/",
+      },
+      {
+        tec: "Convex",
+        link: "https://www.convex.dev/",
+      },
+    ],
+    github: "https://github.com/JoaoPedroOM/DocOM",
+    view: "https://doc-om.vercel.app/",
   },
 
   taskmanager: {
