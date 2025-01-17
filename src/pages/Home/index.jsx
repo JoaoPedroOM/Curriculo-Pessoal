@@ -10,9 +10,10 @@ import git from "../../assets/git.svg";
 import html from "../../assets/html.svg";
 import css from "../../assets/css.svg";
 import js from "../../assets/js.svg";
-import node from "../../assets/node.svg";
+import typescript from "../../assets/typescript.svg";
 import reactJS from "../../assets/reactJS.svg";
 import tailwind from "../../assets/tailwind.svg"
+import nextjs from "../../assets/nextjs.svg"
 
 import Tecnologia from "../../components/Tecnologia";
 
@@ -23,7 +24,7 @@ export function Home() {
       <Main>
         <h1>Olá, meu nome é João Pedro</h1>
         <h3>
-          Eu sou um desenvolvedor de 20 anos do Brasil localizado em{" "}
+          Eu sou um desenvolvedor de 21 anos do Brasil localizado em{" "}
           <a className="detail" href="https://www.google.com/search?q=Peruíbe">
             Peruíbe.
           </a>
@@ -48,7 +49,7 @@ export function Home() {
               <a className="detail" href="https://unisanta.br/" target="_blank">
                 Universidade Santa Cecília
               </a>{" "}
-              desde 2022 (6o. semestre). Foco em desenvolvimento web front-end,
+              desde 2022 (7o. semestre). Foco em desenvolvimento web front-end,
               especificamente no desenvolvimento de aplicações escaláveis e
               performáticas, fornecendo uma boa experiência ao usuário, além de
               realizar otimizações/melhorias em aplicativos web já
@@ -64,10 +65,11 @@ export function Home() {
           <Tecnologia imgURL={html} altIMG="Logo do HTML5" />
           <Tecnologia imgURL={css} altIMG="Logo do CSS" />
           <Tecnologia imgURL={reactJS} altIMG="Logo do React" />
+          <Tecnologia imgURL={nextjs} altIMG="Logo do Next.js" />
           <Tecnologia imgURL={tailwind} altIMG="Logo do Tailwind" />
           <Tecnologia imgURL={js} altIMG="Logo do JavaScript" />
-          <Tecnologia imgURL={git} altIMG="Logo do Git" />
-          <Tecnologia imgURL={node} altIMG="Logo do Node" />
+          <Tecnologia imgURL={typescript} altIMG="Logo do TypeScript" />
+          <Tecnologia imgURL={git} altIMG="Logo do Node" />
         </div>
       </Tecnologias>
 

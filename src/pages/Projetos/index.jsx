@@ -3,6 +3,7 @@ import { Header } from "../../components/Header";
 import Footer from "../../components/Footer";
 import Program from "../../components/Program";
 
+// Capas
 import portfolio from "../../assets/portfolio.png";
 import dogs from "../../assets/dogs.png";
 import notes from "../../assets/notes.png";
@@ -13,13 +14,17 @@ import todolist from "../../assets/todolist.png";
 import empireburger from "../../assets/empireburger.png";
 import guerreiros from "../../assets/GuerreirosdaAmazônia.png";
 import taskmanager from "../../assets/taskmanager.png";
-import docom from "../../assets/docOM.png"
+import docom from "../../assets/docOM.png";
+import chefHouse from "../../assets/ChefHouse.png";
 
+// Tecnologias
 import html from "../../assets/html.svg";
 import css from "../../assets/css.svg";
 import js from "../../assets/js.svg";
+import typescript from "../../assets/typescript.svg";
 import node from "../../assets/node.svg";
 import react from "../../assets/reactJS.svg";
+import nextjs from "../../assets/nextjs.svg";
 import tailwind from "../../assets/tailwind.svg";
 import reduxtoolkit from "../../assets/reduxtoolkit.svg";
 
@@ -42,6 +47,15 @@ export function Projetos() {
             title="Guerreiros da Amazônia"
             description="Atuei como desenvolvedor front-end no projeto Guerreiros da Amazônia, sendo responsável pela implementação do layout das telas de login e registro, além das funcionalidades essenciais de autenticação de usuários, como login, criação de conta e recuperação de senha."
             arrayStack={[react, tailwind]}
+          />
+
+          <Program
+            projectURL="chefhouse"
+            imgURL={chefHouse}
+            alt="Home do Chef House"
+            title="Chef House"
+            description="No projeto Chef House, desenvolvi uma plataforma para compartilhar e explorar receitas utilizando Next.js, TypeScript e Tailwind CSS. A autenticação foi gerida pelo Auth.js, permitindo login seguro com contas do Google e GitHub, enquanto o gerenciamento de conteúdo ficou a cargo do Sanity."
+            arrayStack={[nextjs, typescript, tailwind]}
           />
 
           <Program

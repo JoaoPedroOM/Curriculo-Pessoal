@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Main, Buttons, SectionDesc } from "./styles";
-import { Github } from "lucide-react";
+import { Github } from 'lucide-react';
 import { ArrowUpRight } from "lucide-react";
 
 import { Header } from "../../components/Header";

@@ -9,6 +9,7 @@ import empireburger from "../assets/empireburger.png"
 import guerreiros from "../assets/GuerreirosdaAmazônia.png"
 import taskmanager from "../assets/taskmanager.png"
 import docom from "../assets/docOM.png"
+import chefHouse from "../assets/ChefHouse.png"
 
 export const PROJECTDATA = {
   guerreiros: {
@@ -42,6 +43,40 @@ export const PROJECTDATA = {
     github: "https://github.com/JoaoPedroOM",
     view: "https://github.com/JoaoPedroOM",
   },
+
+  chefhouse: {
+    nome: "Chef House",
+    descricao:
+    "Neste projeto utilizei Next.js e TypeScript para desenvolver a aplicação, com estilização feita com Tailwind. A autenticação de usuários foi gerida pelo Auth.js, oferecendo login seguro com contas do Google e GitHub. Para o gerenciamento de conteúdo, utilizei o Sanity, que permite a organização e atualização das receitas em tempo real, garantindo uma aplicação ágil e escalável.",
+  features: [
+    "É possível que os usuários compartilhem suas próprias receitas com a comunidade",
+    "Os usuários podem visualizar diversas receitas e buscar inspiração para suas próximas criações",
+    "Permite que os usuários se autentiquem facilmente utilizando suas contas do Google ou GitHub através do Auth.js.",
+  ],
+    imagem: chefHouse,
+    altIMG: "Home do Chef House",
+    tecnoligas: [
+      {
+        tec: "Next.js",
+        link: "https://react.dev/",
+      },
+      {
+        tec: "Tailwind CSS",
+        link: "https://tailwindcss.com/",
+      },
+      {
+        tec: "Zod",
+        link: "https://zod.dev/",
+      },
+      {
+        tec: "Sanity",
+        link: "https://www.sanity.io/",
+      },
+    ],
+    github: "https://github.com/JoaoPedroOM/Recipe-2.0",
+    view: "https://chef-house.vercel.app/",
+  },
+
 
   docom: {
     nome: "DocOM",

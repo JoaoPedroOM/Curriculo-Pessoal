@@ -196,7 +196,7 @@ export const Tecnologias = styled.section`
     justify-content: center;
     align-items: center;
     gap: 8rem;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(8, 1fr);
   }
 
   @media (max-width: 870px) {
@@ -204,7 +204,7 @@ export const Tecnologias = styled.section`
     align-items: center;
     > div {
       gap: 10rem;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
     }
   }
 
