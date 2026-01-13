@@ -10,8 +10,43 @@ import guerreiros from "../assets/GuerreirosdaAmazônia.png"
 import taskmanager from "../assets/taskmanager.png"
 import docom from "../assets/docOM.png"
 import chefHouse from "../assets/ChefHouse.png"
+import squadraLogo from "../assets/squadraLogo.jpg"
 
 export const PROJECTDATA = {
+  squadra: {
+    nome: "Squadra Digital — Unimed Campinas",
+    descricao: [
+      "Atuo como desenvolvedor front-end na Squadra Digital, alocado ao projeto da Unimed Campinas, atuando no desenvolvimento e manutenção de aplicações web em React.",
+    "Trabalhando em três frentes estratégicas da Unimed Campinas — Cliente, Colaborador e Cooperado — com aplicações de alto impacto que fazem contato direto com usuários do plano de saúde, colaboradores da Unimed e médicos. Esses sistemas atendem mais de 750 mil beneficiários e são essenciais para a comunicação, acesso a serviços e experiência digital dos usuários, exigindo foco em performance, escalabilidade, organização de código e padronização de interfaces."
+    ],
+    imagem: squadraLogo,
+    altIMG: "Projeto desenvolvido para a Unimed Campinas pela Squadra Digital",
+    tecnoligas: [
+      {
+        tec: "React",
+        link: "https://react.dev/",
+      },
+      {
+        tec: "TypeScript",
+        link: "https://www.typescriptlang.org/",
+      },
+      {
+        tec: "Material UI",
+        link: "https://mui.com/",
+      },
+      {
+        tec: "Azure",
+        link: "https://azure.microsoft.com/",
+      },
+      {
+        tec: "Git",
+        link: "https://git-scm.com/",
+      },
+    ],
+    github: "https://github.com/JoaoPedroOM",
+    view: "https://www.squadra.com.br/",
+  },
+
   guerreiros: {
     nome: "Guerreiros da Amazônia - Triplano Games",
     descricao: [

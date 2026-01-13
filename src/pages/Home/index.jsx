@@ -24,7 +24,7 @@ export function Home() {
       <Main>
         <h1>Olá, meu nome é João Pedro</h1>
         <h3>
-          Eu sou um desenvolvedor de 21 anos do Brasil localizado em{" "}
+          Eu sou um desenvolvedor de 22 anos do Brasil localizado em{" "}
           <a className="detail" href="https://www.google.com/search?q=Peruíbe">
             Peruíbe.
           </a>
@@ -45,11 +45,11 @@ export function Home() {
         <div>
           <blockquote>
             <span>
-              Graduando em Sistemas de Informação pela{" "}
+              Graduado em Sistemas de Informação pela{" "}
               <a className="detail" href="https://unisanta.br/" target="_blank">
                 Universidade Santa Cecília
               </a>{" "}
-              desde 2022 (7o. semestre). Foco em desenvolvimento web front-end,
+              desde 2025. Foco em desenvolvimento web front-end,
               especificamente no desenvolvimento de aplicações escaláveis e
               performáticas, fornecendo uma boa experiência ao usuário, além de
               realizar otimizações/melhorias em aplicativos web já

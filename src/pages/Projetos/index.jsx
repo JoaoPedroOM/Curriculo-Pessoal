@@ -13,6 +13,7 @@ import climatempo from "../../assets/climatempo.png";
 import todolist from "../../assets/todolist.png";
 import empireburger from "../../assets/empireburger.png";
 import guerreiros from "../../assets/GuerreirosdaAmazônia.png";
+import squadra from "../../assets/LogoSquadra.jpg";
 import taskmanager from "../../assets/taskmanager.png";
 import docom from "../../assets/docOM.png";
 import chefHouse from "../../assets/ChefHouse.png";
@@ -40,6 +41,15 @@ export function Projetos() {
         </p>
 
         <Projects>
+        <Program
+            projectURL="squadra"
+            imgURL={squadra}
+            alt="Logo da Squadra Digital"
+            title="Squadra Digital"
+            description="Atuo como desenvolvedor front-end na Squadra Digital, alocado ao projeto da Unimed Campinas, trabalhando no desenvolvimento e manutenção de aplicações web. Utilizo React e TypeScript no dia a dia, além de Material UI (MUI) para construção de interfaces, integração com APIs REST, versionamento com Git e gerenciamento de demandas utilizando ferramentas da Azure."
+            arrayStack={[react, typescript, js]}
+          />
+
           <Program
             projectURL="guerreiros"
             imgURL={guerreiros}
